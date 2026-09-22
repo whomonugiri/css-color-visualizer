@@ -96,7 +96,6 @@ Contact **Monu Kumar Giri at CODEGULLY** for paid development work and business 
 
 - **YouTube:** [Dev Ninja](https://www.youtube.com/@devninja)
 - **LinkedIn:** [Monu Kumar Giri](https://www.linkedin.com/in/whomonugiri/)
-- **Instagram — CODEGULLY:** [@codegully.in](https://www.instagram.com/codegully.in/)
 - **GitHub:** [@whomonugiri](https://github.com/whomonugiri)
 
 ## Support the Project
