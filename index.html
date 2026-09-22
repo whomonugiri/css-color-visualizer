@@ -1,0 +1,30 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>CSS Color Lab</title>
+<style>
+:root{font-family:Inter,system-ui,-apple-system,Segoe UI,sans-serif;color:#171717;background:#f5f5f5}
+*{box-sizing:border-box} body{margin:0;min-height:100vh}
+header{padding:18px 5vw;background:#111;color:white;display:flex;gap:18px;align-items:center;flex-wrap:wrap}
+header strong{font-size:20px} nav a{color:#ddd;text-decoration:none;margin-right:14px}nav a:hover{color:white}
+main{width:min(1100px,92vw);margin:32px auto 60px}.grid{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.card{background:white;border-radius:18px;padding:24px;box-shadow:0 10px 30px #00000012}
+.preview{height:310px;border-radius:18px;border:1px solid #0002;display:grid;place-items:center;transition:.15s}
+.preview span{background:#fffD;padding:10px 14px;border-radius:10px;font-weight:700}
+.control{margin:20px 0}.control label{display:flex;justify-content:space-between;font-weight:700;margin-bottom:8px}
+input[type=range]{width:100%;height:8px}.code{font-family:ui-monospace,SFMono-Regular,Consolas,monospace;background:#111;color:#fff;padding:14px;border-radius:12px;margin:9px 0;overflow:auto}
+.breakdown{display:flex;gap:8px;flex-wrap:wrap}.pill{padding:12px 16px;background:#eee;border-radius:12px;font-family:monospace;font-weight:700}
+h1{font-size:clamp(30px,5vw,52px);margin-bottom:8px}p.lead{font-size:18px;color:#555;margin-top:0}
+table{width:100%;border-collapse:collapse}td,th{padding:11px;border-bottom:1px solid #ddd;text-align:left}
+button{border:0;background:#111;color:white;padding:9px 13px;border-radius:9px;cursor:pointer}
+.row{display:flex;gap:10px;align-items:center}.row .code{flex:1}
+@media(max-width:760px){.grid{grid-template-columns:1fr}.preview{height:230px}}
+</style></head><body><header><strong>CSS Color Lab</strong><nav>
+<a href="index.html">Home</a><a href="rgb.html">RGB / RGBA</a><a href="hex.html">HEX / HEXA</a><a href="hsl.html">HSL / HSLA</a><a href="compare.html">Compare</a>
+</nav></header><main>
+<h1>Colors in Web & App Development</h1>
+<p class="lead">Interactive demos for RGB, RGBA, HEX, HEXA, HSL and HSLA.</p>
+<div class="grid">
+<div class="card"><h2>RGB / RGBA</h2><p>Mix red, green and blue from 0–255 and add alpha transparency.</p><a href="rgb.html">Open visualizer →</a></div>
+<div class="card"><h2>HEX / HEXA</h2><p>See how hexadecimal pairs map directly to RGB channels.</p><a href="hex.html">Open visualizer →</a></div>
+<div class="card"><h2>HSL / HSLA</h2><p>Explore hue 0–360°, saturation, lightness and alpha.</p><a href="hsl.html">Open visualizer →</a></div>
+<div class="card"><h2>Compare</h2><p>One color represented simultaneously in all major formats.</p><a href="compare.html">Open comparison →</a></div>
+</div></main><script></script></body></html>
